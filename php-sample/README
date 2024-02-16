@@ -1,0 +1,8 @@
+Create a local database  for the application to run.
+Name database as dummydb and create a table with the data below.
+
+CREATE TABLE users (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL
+);
